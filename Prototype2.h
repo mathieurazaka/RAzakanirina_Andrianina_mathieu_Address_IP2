@@ -1,0 +1,11 @@
+void accueil(int *choix);
+void connection(FILE *fichier,int *valide2);
+void inscription(FILE *fichier);
+char *allocationTab(int dimension);
+void entrer_donner_IP (char *IP);
+void verification_par_octet(char *tmp,int Byte);
+void Verifiaction_donner_IP(char *tmp,int *Octet1_IP,int *Octet2_IP,int *Octet3_IP,int *Octet4_IP,int *Nombre_decoupage,int *valide);
+char Verification_Class_IP(int Byte);
+void address_reseau_sans_decoupe(char Classe_IP,int Octet1_IP,int Octet2_IP,int Octet3_IP,int Octet4_IPs);
+void address_reseau_avec_decoupe(char *Classe_IP,int *Nombre_decoupage,int *Octet1_IP,int *Octet2_IP,int *Octet3_IP,int *Octet4_IP);
+void decoupage_IP(char Classe_IP,int Nombre_decoupage,int Octet1_IP,int Octet2_IP,int Octet3_IP,int Octet4_IP);
